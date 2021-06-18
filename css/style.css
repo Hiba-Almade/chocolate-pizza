@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-rows: 100px 1fr 150px;
+    grid-template-rows: 100px 1fr 100px;
     gap: 30px;
     width: 100%;
 }
@@ -183,7 +183,7 @@ button{
 
 }
 
-footer{
+/* footer{
    margin-top: 100px;
     display: flex;
     align-items: center;
@@ -222,4 +222,20 @@ footer section:nth-child(2) p{
     color: grey;
     text-align: center;
     position: relative; right:750px;
+} */
+
+footer section:nth-child(1) img{
+  margin: 0 auto;
+  position: relative;
+    left: 50%;
+    bottom: 20px;
+}
+
+footer{
+    border-top: 1px solid gray;
+}
+
+footer section p{
+    text-align: center;
+    font-size: 12px;
 }
